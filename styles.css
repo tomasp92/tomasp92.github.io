@@ -48,4 +48,13 @@ header{
         position: inherit;
         top: 1000px;
     }
+
+    #proyectos div{
+        width: 90%;
+        margin: auto;
+    }
+    #proyectos img{
+        width: 70%;
+        height: 35%;
+    }
 }
