@@ -3,14 +3,36 @@
     flex-direction: column;
     overflow: hidden;
 }
+#google_translate_element{
+    
+}
 #header{
     background-color:rgb(201, 201, 195);
 
 }
 
 #translate{
+    display: flex;
     padding: 1%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-start;
 }
+
+#blanc{
+    flex-shrink: 30%;
+    flex-grow: 80%;
+}
+
+#translatewebsite{
+    flex-grow: 10%;
+    text-align: right;
+    width: 10%;
+}
+#toggle-buttons{
+    flex-grow: 10%;
+}
+
 
 #header2{
     display: flex;
@@ -111,7 +133,7 @@ h3{
 
     .carousel{
         width: 90%;
-        max-width: 300px;
+        max-width: 350px;
         justify-content: center;
         padding: 3%;
         margin: 3%;
@@ -124,6 +146,12 @@ h3{
         text-align: center;
         justify-content: center;
         box-sizig: border-box;
+    }
+    #google_translate_element{
+        background-color: brown;
+        display: flex;
+        max-width: fit-content;
+        height: auto;
     }
 }
 
